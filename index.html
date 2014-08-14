@@ -6,6 +6,20 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var submit_btn = $('.btn-submit');
+
+            submit_btn.click(function () {
+                setTimeout(function () {
+                    $('.result-sentiment, .result-target, .result-hierarchy, .result-fake').show(400);
+                }, 1000);
+
+            });
+
+
+        });
+    </script>
 </head>
 
 <body>
@@ -34,7 +48,7 @@
                     </p>
 
                     <p>
-                        <a href="#" class="btn btn-primary" role="button">Go!</a>
+                        <a href="#" class="btn-submit btn btn-primary" role="button">Go!</a>
                     </p>
                 </p>
 
