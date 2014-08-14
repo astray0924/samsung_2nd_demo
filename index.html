@@ -39,12 +39,12 @@
                 </p>
 
                 <!-- Sentimenet -->
-                <p class="result-sentiment">
 
-                    <div class="panel panel-success">
-                        <div class="panel-heading">Sentiment Result</div>
-                        <div class="panel-body">
-                            <pre>
+
+                <div style="display: none;" class="result-sentiment panel panel-success">
+                    <div class="panel-heading">Sentiment Result</div>
+                    <div class="panel-body">
+                        <pre>
 {
   "document": [
     {
@@ -151,16 +151,15 @@
   ]
 }
                     </pre>
-                        </div>
                     </div>
-                </p>
+                </div>
+
 
                 <!-- Target -->
-                <p class="result-target">
-                    <div class="panel panel-info">
-                        <div class="panel-heading">Target Result</div>
-                        <div class="panel-body">
-                            <pre>
+                <div class="result-target panel panel-info" style="display: none;">
+                    <div class="panel-heading">Target Result</div>
+                    <div class="panel-body">
+                        <pre>
 {
   "document": {
     "file name": "camera_Canon_G3",
@@ -181,17 +180,15 @@
   }
 }
                     </pre>
-                        </div>
                     </div>
+                </div>
 
-                </p>
 
                 <!-- Hierarchy -->
-                <p class="result-hierarchy">
-                    <div class="panel panel-warning">
-                        <div class="panel-heading">Hierarchy Result</div>
-                        <div class="panel-body">
-                            <pre>
+                <div style="display: none;" class="result-hierarchy panel panel-warning">
+                    <div class="panel-heading">Hierarchy Result</div>
+                    <div class="panel-body">
+                        <pre>
 [Decoration]
 {
   ...
@@ -255,20 +252,17 @@
   ...
 }
                     </pre>
-                        </div>
                     </div>
-                </p>
+                </div>
+
 
                 <!-- Fake -->
-                <p class="result-fake">
-                    <div class="panel panel-danger">
-                        <div class="panel-heading">Fake Result</div>
-                        <div class="panel-body">
-                            <h1><span class="label label-danger">Fake!</span></h1>
-                        </div>
+                <div style="display: none;" class="result-fake panel panel-danger">
+                    <div class="panel-heading">Fake Result</div>
+                    <div class="panel-body">
+                        <h1><span class="label label-danger">Fake!</span></h1>
                     </div>
-
-                </p>
+                </div>
             </div>
         </div>
     </div>
