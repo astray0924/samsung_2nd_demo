@@ -1,0 +1,16 @@
+{
+  "document": {
+    "file name": "camera_Canon_G3",
+    "target_list": [
+      {
+        "opinion target": "hotel"
+      },
+      {
+        "opinion target": "place"
+      },
+      {
+        "opinion target": "room"
+      },
+    ]
+  }
+}

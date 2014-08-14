@@ -1,0 +1,85 @@
+{
+  "document": [
+    {
+      "file name": "1.txt",
+      "sentence": [
+        {
+          "original sentence is": "This is a great , funky hotel in the heart of downtown .",
+          "sentence polarity": "strong positive",
+          "word": [
+            {
+              "opinion word": "great",
+              "opinion target": "hotel",
+              "polarity score": [
+                {
+                  "strong positive": "0.9081",
+                  "positive": "0.0336",
+                  "neutral": "0.0135",
+                  "negative": "0.0156",
+                  "strong negative": "0.0291"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "original sentence is": "Who would stay at a boring Hilton or Marriott ?",
+          "sentence polarity": "neutral",
+          "word": [
+            {
+              "opinion word": "boring",
+              "opinion target": "Hilton",
+              "polarity score": [
+                {
+                  "strong positive": "0.0917",
+                  "positive": "0.015",
+                  "neutral": "0.0121",
+                  "negative": "0.2748",
+                  "strong negative": "0.6065"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "original sentence is": "This place is cool .",
+          "sentence polarity": "positive",
+          "word": [
+            {
+              "opinion word": "cool",
+              "opinion target": "place",
+              "polarity score": [
+                {
+                  "strong positive": "0.0414",
+                  "positive": "0.9132",
+                  "neutral": "0.0211",
+                  "negative": "0.0196",
+                  "strong negative": "0.0047"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "original sentence is": "The Berkshire Room is great at too .",
+          "sentence polarity": "positive",
+          "word": [
+            {
+              "opinion word": "great",
+              "opinion target": "Berkshire",
+              "polarity score": [
+                {
+                  "strong positive": "0.9081",
+                  "positive": "0.0336",
+                  "neutral": "0.0135",
+                  "negative": "0.0156",
+                  "strong negative": "0.0291"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

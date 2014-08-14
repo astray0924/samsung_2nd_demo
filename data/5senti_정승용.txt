@@ -1,0 +1,105 @@
+{
+  "document": [
+    {
+      "file name": "5.txt",
+      "sentence": [
+        {
+          "original sentence is": "This hotel is so good .",
+          "sentence polarity": "positive",
+          "word": [
+            {
+              "opinion word": "good",
+              "opinion target": "hotel",
+              "polarity score": [
+                {
+                  "strong positive": "0.005",
+                  "positive": "0.9874",
+                  "neutral": "0.002",
+                  "negative": "0.0049",
+                  "strong negative": "7.0E-4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "original sentence is": "Great hotel .",
+          "sentence polarity": "positive",
+          "word": []
+        },
+        {
+          "original sentence is": "I had a suite and loved every minute of my stay .",
+          "sentence polarity": "positive",
+          "word": []
+        },
+        {
+          "original sentence is": "Close to everything .",
+          "sentence polarity": "neutral",
+          "word": []
+        },
+        {
+          "original sentence is": "Service was great .",
+          "sentence polarity": "positive",
+          "word": [
+            {
+              "opinion word": "great",
+              "opinion target": "Service",
+              "polarity score": [
+                {
+                  "strong positive": "0.9081",
+                  "positive": "0.0336",
+                  "neutral": "0.0135",
+                  "negative": "0.0156",
+                  "strong negative": "0.0291"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "original sentence is": "The architecture and designs are stunning !",
+          "sentence polarity": "strong positive",
+          "word": [
+            {
+              "opinion word": "stunning",
+              "opinion target": "designs",
+              "polarity score": [
+                {
+                  "strong positive": "0.7675",
+                  "positive": "0.1208",
+                  "neutral": "0.0134",
+                  "negative": "0.0466",
+                  "strong negative": "0.0517"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "original sentence is": "Staying here greatly improved and enhanced my trip .",
+          "sentence polarity": "strong positive",
+          "word": []
+        },
+        {
+          "original sentence is": "Gorgeous and worth it .",
+          "sentence polarity": "strong positive",
+          "word": [
+            {
+              "opinion word": "Gorgeous",
+              "opinion target": "",
+              "polarity score": [
+                {
+                  "strong positive": "0.4884",
+                  "positive": "0.2528",
+                  "neutral": "0.0302",
+                  "negative": "0.1432",
+                  "strong negative": "0.0854"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
